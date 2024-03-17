@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-figtree {
+  font-family: "Figtree", sans-serif;
+}
+
+/* colors used {
+  color: #f4d04e;
+  color: #ffffff;
+  color: #808080;
+  color: #121212;
+} */
