@@ -2,12 +2,12 @@ import BlogCard from "./component/blog-card";
 const data = [
   {
     cateagory: "Learning",
-    banner: "/assets/illustration-article.svg",
+
     date: "21 Dec 2023",
     title: "HTML & CSS foundations",
     description: "These languages are the backbone of every website, defining structure, content and presentation.",
     publishername: "Greg Hopper",
-    publisherpic: "/assets/image-avatar.webp"
+
 
   }
 ]
@@ -24,8 +24,8 @@ function App() {
               title={item.title}
               description={item.description}
               publishername={item.publishername}
-              publisherpic={item.publisherpic}
-              banner={item.banner} />
+
+            />
           )
         })}
       </div>
